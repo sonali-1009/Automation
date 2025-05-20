@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"         # Location of the requirements.txt or pyproject.toml file
+    schedule:
+      interval: "daily"    # Frequency of update checks (can be "daily", "weekly", or "monthly")
